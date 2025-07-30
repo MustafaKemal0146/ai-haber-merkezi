@@ -1,0 +1,17 @@
+[Unit]
+Description=AI Haber Merkezi
+After=network.target
+
+[Service]
+Type=forking
+User=pi
+WorkingDirectory=/home/pi/ai-haber-merkezi
+ExecStart=/usr/local/bin/pm2 start ecosystem.config.js
+ExecReload=/usr/local/bin/pm2 reload ecosystem.config.js
+ExecStop=/usr/local/bin/pm2 stop ecosystem.config.js
+PIDFile=/home/pi/.pm2/pm2.pid
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
