@@ -18,30 +18,43 @@
 
 </div>
 
-<p align="center">
-<img src="https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=600" alt="AI Technology" width="600"/>
+## 📸 Ekran Görüntüleri
+
+<div align="center">
+
+### 🏠 Ana Sayfa
+<img src="https://github.com/MustafaKemal0146/ai-haber-merkezi/blob/main/img/main.png?raw=true" alt="AI Haber Merkezi Ana Sayfa" width="800"/>
 <br/>
-<em>Yapay zeka dünyasından son haberler tek platformda</em>
+<em>Modern ve responsive tasarım ile AI haberlerini takip edin</em>
+
 <br/><br/>
-<img src="https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&w=600" alt="News Technology" width="600"/>
+
+### ⚙️ RSS Yönetimi
+<img src="https://github.com/MustafaKemal0146/ai-haber-merkezi/blob/main/img/rss.png?raw=true" alt="RSS Kaynak Yönetimi" width="800"/>
 <br/>
-<em>Gerçek zamanlı RSS feed toplayıcısı ile güncel haberler</em>
-</p>
+<em>Web arayüzünden kolayca RSS kaynakları ekleyin ve yönetin</em>
+
+</div>
 
 > **🔥 Akıllı Haber Toplayıcısı:** AI Haber Merkezi, Türkiye ve dünyadan yapay zeka haberlerini otomatik olarak toplayan, filtreleyen ve modern bir arayüzde sunan gelişmiş bir web uygulamasıdır. Çift dil desteği ve kategorik filtreleme ile mükemmel kullanıcı deneyimi sunar.
 
 ## ✨ Özellikler
 
+<div align="center">
+<img src="https://github.com/MustafaKemal0146/ai-haber-merkezi/blob/main/img/main.png?raw=true" alt="AI Haber Merkezi Özellikleri" width="600"/>
+</div>
+
 - 🌐 **Çift Dil Desteği**: Türkçe ve İngilizce tam lokalizasyon
-- 📰 **Gerçek Zamanlı RSS**: 20+ güvenilir kaynaktan otomatik haber çekme
-- 🎯 **Akıllı Filtreleme**: AI ile ilgili haberleri otomatik tespit
-- 📱 **Responsive Tasarım**: Mobil, tablet ve desktop uyumlu
+- � **AGerçek Zamanlı RSS**: 20+ güvenilir kaynaktan otomatik haber çekme
+- � **Akıellı Filtreleme**: AI ile ilgili haberleri otomatik tespit
+- �  **Responsive Tasarım**: Mobil, tablet ve desktop uyumlu
 - 🔄 **Otomatik Güncelleme**: 15 dakikada bir otomatik yenileme
 - 💾 **Akıllı Cache**: 10 dakikalık cache sistemi ile hızlı yükleme
 - 🎨 **Modern UI/UX**: Gradient tasarım ve micro-interactions
 - 📊 **Canlı İstatistikler**: Makale sayısı, kaynak sayısı ve cache durumu
 - 🏷️ **Kategori Filtreleme**: Yerel ve uluslararası haber ayrımı
 - ⚡ **Yüksek Performans**: Client-side rendering ile hızlı deneyim
+- ⚙️ **RSS Manager**: Web arayüzünden RSS kaynak yönetimi
 
 ## 🛠️ Teknolojiler
 
@@ -278,9 +291,33 @@ const turkishKeywords = [
 4. **Tarih Filtreleme**: 3 aydan eski haberler elenir
 5. **Sıralama**: Yayın tarihine göre sıralanır
 
-## 🔧 Konfigürasyon
+## ⚙️ RSS Kaynak Yönetimi
 
-### ⚙️ RSS Kaynakları Ekleme
+<div align="center">
+<img src="https://github.com/MustafaKemal0146/ai-haber-merkezi/blob/main/img/rss.png?raw=true" alt="RSS Kaynak Yönetimi Arayüzü" width="700"/>
+<br/>
+<em>Sezgisel web arayüzü ile RSS kaynaklarınızı kolayca yönetin</em>
+</div>
+
+### 🔧 RSS Manager Özellikleri:
+- ➕ **Kolay Ekleme**: Form ile yeni RSS kaynakları ekleyin
+- 🧪 **Test Etme**: RSS feed'lerini eklemeden önce test edin
+- 📊 **Popüler Öneriler**: Hazır RSS kaynak önerileri
+- 🗑️ **Kolay Kaldırma**: Tek tıkla kaynak kaldırma
+- 🏷️ **Kategori Seçimi**: Yerel/Uluslararası kategori belirleme
+- 🌐 **Dil Desteği**: Türkçe/İngilizce kaynak dil seçimi
+
+### 📝 Yeni RSS Kaynağı Ekleme:
+1. **RSS Yönetimi** butonuna tıklayın (sağ üst köşe)
+2. **Kaynak Ekle** butonuna tıklayın
+3. Kaynak adı ve URL'sini girin
+4. **Test Et** ile RSS'in geçerliliğini kontrol edin
+5. Kategori ve dil seçin
+6. **Ekle** butonuna tıklayın
+
+## 🔧 Manuel Konfigürasyon
+
+### ⚙️ Kod ile RSS Kaynakları Ekleme
 
 `src/data/rssSources.ts` dosyasında yeni kaynaklar ekleyebilirsiniz:
 
